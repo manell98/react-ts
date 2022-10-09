@@ -1,4 +1,5 @@
-import Fundo1 from "../assets/fundo1.jpg";
+import Fundo1 from "../../assets/fundo1.jpg";
+import './FirstComponent.css';
 
 const FirstComponent = () => {
     const nomeComponent = "Primeiro Component no React";
@@ -7,7 +8,7 @@ const FirstComponent = () => {
         <div>
             <h1>{nomeComponent}</h1>
             <div>
-                <img src={Fundo1} alt="Fundo do Mac" />
+                <img src={Fundo1} alt="Fundo do Mac" className="Fundo1" />
             </div>
         </div>
     )
