@@ -5,8 +5,8 @@ import FirstComponent from "./components/FirstComponent"
 function App() {
   return (
     <div className="App">
-      <FirstComponent />
       <Events />
+      <FirstComponent />
     </div>
   );
 }
